@@ -1,10 +1,10 @@
 import React from 'react';
-// import img from '../assests/screen.svg';
+import About from './utilities/About';
 
 const ThirdPart = () => {
   return (
     <div>
-      {/* <img src={img} alt="img/svg" /> */}
+      <About/>
     </div>
   )
 }
