@@ -11,7 +11,8 @@ const About = () => {
         <div className="">
           <div>
             <h1 className="text-black font-bold md:text-4xl text-2xl mb-5">
-              What is <span className="text-purple-400">Agile Development?</span>
+              What is{" "}
+              <span className="text-purple-400">Agile Development?</span>
             </h1>
             <p className="flex items-center justify-center w-[80%] text-lg text-slate-500">
               Agile development is a popular software development technique that
