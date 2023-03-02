@@ -12,6 +12,7 @@ import risks from "../../assests/risks.svg";
 import Box1 from "./Box1";
 
 const Business = () => {
+  // changing the code whether laptop view or mobile view
   const [responsive, setResponsive] = useState(window.innerWidth > 768);
   useEffect(() => {
     const handleResize = () => {
@@ -34,6 +35,7 @@ const Business = () => {
           </h1>
         </div>
         {responsive ? (
+          // laptop or large screen view
           <div className="container">
             <div className="flex flex-wrap mt-5">
               <div className="lg:w-1/2 pr-4 pl-4">
@@ -81,17 +83,18 @@ const Business = () => {
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px]">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                  Continuous <br /> Improvement
                     <img
-                      src={dilevery}
+                      src={improvement}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="text-[18px] leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                  In an agile development process, continuous feedback from
+                    users and team members is taken to improve the future
+                    iteration throughout the whole project and deliver quality
+                    products.
                   </p>
                 </div>
               </div>
@@ -103,17 +106,18 @@ const Business = () => {
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                  Scrum Meetings
                     <img
-                      src={dilevery}
+                      src={meetings}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="text-[18px] leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                  It is a highly collaborative working pattern in which any
+                    team works. This makes the group discussion light, and
+                    relevant. It helps the team complete project deliverables
+                    quickly and effectively.
                   </p>
                 </div>
                 <img
@@ -123,17 +127,18 @@ const Business = () => {
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                  Strong Team <br /> Interaction
                     <img
-                      src={dilevery}
+                      src={strongTeam}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="text-[18px] leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                  Agile development focuses on the importance of team working
+                    together by taking full responsibility for the project. It
+                    offers different methods for communication and face-to-face
+                    interaction to all members working in the development team.
                   </p>
                 </div>
                 <img
@@ -143,23 +148,26 @@ const Business = () => {
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                  Reduce Risks
                     <img
-                      src={dilevery}
+                      src={risks}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="text-[18px] leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                  Following the agile software development process encourages
+                    frequent deliveries by a continuous audit of the product
+                    quality. Product is checked at every stage, and this reduces
+                    the product failure to almost zero.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         ) : (
+
+          // Responsiveness tablet view
           <div className="container">
             <div className="flex flex-wrap mt-5">
               <div className="lg:w-1/2 pr-4 pl-4">
@@ -199,64 +207,68 @@ const Business = () => {
 
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px]">
                   <h3 className="mb-3 font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                    Continuous <br /> Improvement
                     <img
-                      src={dilevery}
+                      src={improvement}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                    In an agile development process, continuous feedback from
+                    users and team members is taken to improve the future
+                    iteration throughout the whole project and deliver quality
+                    products.
                   </p>
                 </div>
               </div>
               <div className="lg:w-1/2 pr-4 pl-4">
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="mb-3 font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                    Scrum Meetings
                     <img
-                      src={dilevery}
+                      src={meetings}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                    It is a highly collaborative working pattern in which any
+                    team works. This makes the group discussion light, and
+                    relevant. It helps the team complete project deliverables
+                    quickly and effectively.
                   </p>
                 </div>
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="mb-3 font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                    Strong Team <br /> Interaction
                     <img
-                      src={dilevery}
+                      src={strongTeam}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                    Agile development focuses on the importance of team working
+                    together by taking full responsibility for the project. It
+                    offers different methods for communication and face-to-face
+                    interaction to all members working in the development team.
                   </p>
                 </div>
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="mb-3 font-bold text-[#000c51]">
-                    Faster & <br /> High-Quality Delivery{" "}
+                    Reduce Risks
                     <img
-                      src={dilevery}
+                      src={risks}
                       alt="img/delivery"
                       className=" float-right relative top-[-40px]"
                     />
                   </h3>
                   <p className="leading-[34px] pr-[10px] text-[#828fad]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam, voluptas velit odit facilis error excepturi. Non
-                    similique temporibus qui, voluptate dolor dolores?
+                    Following the agile software development process encourages
+                    frequent deliveries by a continuous audit of the product
+                    quality. Product is checked at every stage, and this reduces
+                    the product failure to almost zero.
                   </p>
                 </div>
               </div>
