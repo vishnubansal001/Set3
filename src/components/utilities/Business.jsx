@@ -58,7 +58,7 @@ const Business = () => {
                 <img
                   src={arrow2}
                   alt="img/arrow2"
-                  className="mt-[130px] ml-[35%]"
+                  className="mt-[100px] ml-[35%]"
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px]">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
@@ -79,7 +79,7 @@ const Business = () => {
                 <img
                   src={arrow2}
                   alt="img/arrow2"
-                  className="mt-[150px] ml-[35%]"
+                  className="mt-[100px] ml-[35%]"
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px]">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
@@ -123,7 +123,7 @@ const Business = () => {
                 <img
                   src={arrow1}
                   alt="img/arrow1"
-                  className="mt-[100px] ml-[-30px]"
+                  className="mt-[50px] ml-[-30px]"
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
@@ -144,7 +144,7 @@ const Business = () => {
                 <img
                   src={arrow1}
                   alt="img/arrow1"
-                  className="mt-[100px] ml-[-30px]"
+                  className="mt-[50px] ml-[-30px]"
                 />
                 <div className="bg-[#fff] rounded-[20px] shadow-lg p-[20px] mb-[50px] min-h-[250px] mt-0">
                   <h3 className="text-[30px] font-bold text-[#000c51]">
